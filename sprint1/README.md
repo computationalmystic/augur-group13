@@ -22,7 +22,7 @@
 
 ### ERD
 
-![ERD](./images/erd.png)
+![ERD](./erd.png)
 
 ### DDL
 
