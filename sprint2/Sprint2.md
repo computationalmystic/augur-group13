@@ -26,6 +26,8 @@ If I could just get DoSOCSv2 to actually install `nomos`, then everything would 
 
 As a result of all of these problems, since I was unable to fully install DoSOCSv2, I was not able to complete the data section by filling it with bogus data. However, we do have the PostgreSQL queries for creating [this](dosocs.png) schema available [here](dosocs.sql). Our ERD has not changed.
 
+# Coding
+---------------------
 [This section written by Luke Fisher]
 My long term objective is to wrap DoSOCSv2 in a flask server. To this end I installed DoSOCSv2 on my local machine and created a basic proof of concept program. I have documented some of my many obsticles and my achievements below:
 
@@ -37,4 +39,4 @@ The next steps for me will be fleshing out my wrapper on my local machine while 
 
 # Changed Files
 ---------------------
-- Added Luke's basic DoSOCSv2 wrapper.
+- Added Luke's basic DoSOCSv2 wrapper in `dosocsv2wrapper/main.py`
