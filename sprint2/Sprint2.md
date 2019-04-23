@@ -4,14 +4,15 @@ We don't believe it is necessary to refine our functional requirements at this t
 
 # System Design Document
 ---------------------
-![Sprint 2 Design Document PNG](https://github.com/computationalmystic/augur-group13/blob/master/sprint2/sprint2designdoc.png "Sprint 2 Design Document")
+![Sprint 2 Design Document](https://github.com/computationalmystic/augur-group13/blob/master/sprint2/sprint2designdoc.png "Sprint 2 Design Document")
 
 # UI Design
 ---------------------
 [This section is written by Paul Gillis]
 I decided to convert the augur UI design into Lunacy (Sketch for Windows) for ease later on. Lunacy is a design program used for designing websites and mobile apps, I choose to put our symbols in Lunacy since the program can later export the assets into css. Keeping with the KUBE styleguide I used the bordered labels. The different states for Redistribution are Approved (Green) and Rejected (Red). The Redistribution is accompanied by a second enum representing the redistribution requirements. It's different states are Requires Author Recognition (Blue) and Recognition Not Required (Blue). The second enum metric Software Warranty has two states No Warranty (Red) and Valid up to #days (Green). More metrics are to come/in discussion amunst the team.
-Lunacy File: Augur.sketch
-Current UI Design: AugurUI.png
+
+![Sprint 2 Design UI Design](https://github.com/computationalmystic/augur-group13/blob/master/sprint2/AugurUI.png "Sprint 2 UI Design Document")
+
 
 # Data
 ---------------------
@@ -44,3 +45,4 @@ The next steps for me will be fleshing out my wrapper on my local machine while 
 # Changed Files
 ---------------------
 - Added Luke's basic DoSOCSv2 wrapper in `dosocsv2wrapper/main.py`
+- Added Lunacy design file in `Augur.sketch`
