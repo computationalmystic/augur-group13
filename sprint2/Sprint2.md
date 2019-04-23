@@ -8,6 +8,10 @@ We don't believe it is necessary to refine our functional requirements at this t
 
 # UI Design
 ---------------------
+[This section is written by Paul Gillis]
+I decided to convert the augur UI design into Lunacy (Sketch for Windows) for ease later on. Lunacy is a design program used for designing websites and mobile apps, I choose to put our symbols in Lunacy since the program can later export the assets into css. Keeping with the KUBE styleguide I used the bordered labels. The different states for Redistribution are Approved (Green) and Rejected (Red). The Redistribution is accompanied by a second enum representing the redistribution requirements. It's different states are Requires Author Recognition (Blue) and Recognition Not Required (Blue). The second enum metric Software Warranty has two states No Warranty (Red) and Valid up to #days (Green). More metrics are to come/in discussion amunst the team.
+Lunacy File: Augur.sketch
+Current UI Design: AugurUI.png
 
 # Data
 ---------------------
