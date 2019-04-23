@@ -1,8 +1,10 @@
 # Functional Requirements Refinement
 ---------------------
+We don't believe it is necessary to refine our functional requirements at this time, as our stakeholder hasn't had a problem with our current direction so far.
 
 # System Design Document
 ---------------------
+![Sprint 2 Design Document PNG](https://github.com/computationalmystic/augur-group13/blob/master/sprint2/sprint2designdoc.png "Sprint 2 Design Document")
 
 # UI Design
 ---------------------
@@ -24,5 +26,15 @@ If I could just get DoSOCSv2 to actually install `nomos`, then everything would 
 
 As a result of all of these problems, since I was unable to fully install DoSOCSv2, I was not able to complete the data section by filling it with bogus data. However, we do have the PostgreSQL queries for creating [this](dosocs.png) schema available [here](dosocs.sql). Our ERD has not changed.
 
+[This section written by Luke Fisher]
+My long term objective is to wrap DoSOCSv2 in a flask server. To this end I installed DoSOCSv2 on my local machine and created a basic proof of concept program. I have documented some of my many obsticles and my achievements below:
+
+1. I have essentially no Python experience prior to this course. While this may seem like it was a bit of a non-factor when looking at the Python program I wrote, it took a few hours to figure out what was going on under the hood with Flask and Python. 
+2. DoSOCSv2 was an absolute nightmare to install. I had to install a new operating sytem, install and micro-manage a multitude of dependencies, and apply a few dirty hacks to a few files to get it up and running. I became a regular at Professor Goggins' office hours with several odd and mundane issues that he helped me sort out.
+3. Once I had a novice grasp of Python/Flask and a working instance of DoSOCSv2, I created a simple proof-of-concept Flask wrapper for DoSOCSv2. It literally outputs a hardcoded dosocs2 command's result to the webpage, but it works and it provides a base from which to build off of. 
+
+The next steps for me will be fleshing out my wrapper on my local machine while Carter gets a working version of DoSOCSv2 on our server. Then I will work with Paul on the Augur API.
+
 # Changed Files
 ---------------------
+- Added Luke's basic DoSOCSv2 wrapper.
