@@ -28,7 +28,6 @@
 ######################
 *.log
 *.pid
-*.sql
 *.sqlite
 *.cfg
 *.cfg.old
