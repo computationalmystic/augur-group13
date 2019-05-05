@@ -107,3 +107,17 @@ Copyright © 2018 University of Nebraska at Omaha, University of Missouri and CH
 Augur is free software: you can redistribute it and/or modify it under the terms of the MIT License as published by the Open Source Initiative. See the file [LICENSE](LICENSE) for more details.
 
 (This work has been funded through the Alfred P. Sloan Foundation)
+
+# Group 13 
+
+## About DoSOCSv2
+DoSOCSv2 is a CLI tool for scanning source code to produce and store SPDX 2.0 data. We will be incorporating DoSOCSv2 into our application to produce relevant licensing information on user request. DoSOCSv2 has inbuilt PostgreSQL configuration which we have decided to utilize because of its high-performance joins. 
+
+For more information, check out [DoSOCSv2's GitHub repository](https://github.com/Nebrethar/DoSOCSv2#step-3-optional---add-postgresql-configuration)
+
+## Current State of the Project
+At the time of writing, Carter has gotten DoSOCSv2 up and running on an Amazon EC2 instance and cofigured it to use PostgreSQL. Paul has been working on the front-end and has completed a sketch for our main user interface. Luke has been working on wrapping DoSOCSv2 in a Flask server and making an API for the backend. 
+The team is currently working on finishing what they've been assigned. Soon (hopefully) we will start getting our projects to interaface with one another.
+
+## Expected User Deliverable Product
+At the time of writing, we expect to add a risk metric to the Augur project. The product will ask the user for a repository they want to scan and send back some SPDX information produced by DoSOCSv2. The information is planned to include "Package Information", but more parts of the scan may be delivered on stakeholder request. 
