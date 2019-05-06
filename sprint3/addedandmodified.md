@@ -22,6 +22,8 @@
 
 ## Added in Sprint Three
 [All on these files can be found here](https://github.com/computationalmystic/augur-group13/tree/master/sprint3)
+- dosocsv2wrapper
+	- app.py
 - User interaction.md
 
 ## Misc.
