@@ -29,6 +29,6 @@
 - [All issues are well described and have work performed against them clearly recorded with thoughtful and somewhat detailed explanations of work performed each day](https://github.com/computationalmystic/augur-group13/issues) A
 
 ## 40% of your grade in the second sprint:
-- a. [New issues are created in a well described manner during the course of the sprint (if you find no new issues, you're not doing the user testing part.)](https://github.com/computationalmystic/augur-group13/issues)    B
-- b. a, your developer-instructions are easy enough for our TA's and I to follow that we can install your system.  A– 
+- [a. New issues are created in a well described manner during the course of the sprint (if you find no new issues, you're not doing the user testing part.)](https://github.com/computationalmystic/augur-group13/issues)    B
+- [b. a, your developer-instructions are easy enough for our TA's and I to follow that we can install your system.  A– ](https://github.com/computationalmystic/augur-group13/blob/master/sprint3/developer-instructions.md)
 - [c. a, b, plus, our README.md is updated to reflect the current state of what you expect to delivery to a user at the end.](https://github.com/computationalmystic/augur-group13/blob/master/README.md)	A 
